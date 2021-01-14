@@ -25,7 +25,7 @@ inputs:
     - timer: #京小超兑换奖品 #摇京豆 #京东汽车 #京东汽车兑换
         parameters:
           name: jd_blueCoin_jd_club_lottery_car_car_exchange
-          cronExpression: "0 0 0 * * * *"
+          cronExpression: "23 59 58 * * * *"
           enable: true
           argument: jd_blueCoin&jd_club_lottery&jd_car&jd_car_exchange
     - timer: #东东农场 #东东萌宠 #口袋书店 #京喜农场
